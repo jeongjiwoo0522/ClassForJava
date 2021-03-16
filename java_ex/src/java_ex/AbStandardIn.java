@@ -2,7 +2,7 @@ package java_ex;
 
 import java.util.Scanner;
 
-public class ClassB {
+public class AbStandardIn {
 	
 	public static void main(String[] args) {
 		

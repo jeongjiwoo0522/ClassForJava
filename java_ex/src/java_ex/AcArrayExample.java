@@ -1,6 +1,6 @@
 package java_ex;
 
-public class ClassC {
+public class AcArrayExample {
 
 	public static void main(String[] args) {
 		int[] arr;

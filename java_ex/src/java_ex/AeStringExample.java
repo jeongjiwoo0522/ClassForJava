@@ -1,6 +1,6 @@
 package java_ex;
 
-public class ClassE {
+public class AeStringExample {
 	public static void main(String[] args) {
 		String[] array = new String[3];
 		array[0] = "JAVA";
