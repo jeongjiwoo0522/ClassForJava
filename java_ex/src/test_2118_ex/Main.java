@@ -8,15 +8,26 @@ public class Main {
 		Broom broomTool = new Broom();
 		Duster dusterTool = new Duster();
 		
-		ClassRoom eHakNyeonIllBan = new ClassRoom("2-1");
+		ClassRoom firstClassOfSecondGrade = new ClassRoom("2-1");
 		ScienceRoom scienceRoom = new ScienceRoom();
 		ComputerRoom computerRoom = new ComputerRoom();
 		
-		CleaningPerson cleaner = new CleaningPerson(eHakNyeonIllBan);
+		CleaningPerson jiwoo = new CleaningPerson(firstClassOfSecondGrade);
+		CleaningPerson junseo = new CleaningPerson(scienceRoom);
 		
-		cleaner.clean(broomTool);
-		cleaner.clean(dusterTool, defaultTool);
+		jiwoo.clean(broomTool);
+		System.out.println("----------------------------");
+		jiwoo.clean(dusterTool, broomTool);
+		System.out.println("----------------------------");
+		junseo.clean(dusterTool);
+		System.out.println("----------------------------");
 		
+		ClassRoomCleanTeam firstClassOfSecondGradeCleanTeam = new ClassRoomCleanTeam(firstClassOfSecondGrade);
+		firstClassOfSecondGradeCleanTeam.cleanRoom();
 		
+		System.out.println("----------------------------");
+		
+		ScienceRoomCleanTeam scienceRoomCleanTeam = new ScienceRoomCleanTeam();
+		scienceRoomCleanTeam.cleanRoom();
 	}
 }
