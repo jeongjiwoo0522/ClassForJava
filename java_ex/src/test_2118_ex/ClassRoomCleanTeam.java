@@ -2,12 +2,12 @@ package test_2118_ex;
 
 public class ClassRoomCleanTeam {
 	
-	ClassRoom classRoom;
+	private ClassRoom classRoom;
 	
-	CleaningPerson sweeper;
-	CleaningPerson wiper;
+	private CleaningPerson sweeper;
+	private CleaningPerson wiper;
 	
-	ClassRoomCleanTeam(ClassRoom classRoom) {
+	public ClassRoomCleanTeam(ClassRoom classRoom) {
 		this.classRoom = classRoom;
 		this.sweeper = new CleaningPerson(classRoom);
 		this.wiper = new CleaningPerson(classRoom);

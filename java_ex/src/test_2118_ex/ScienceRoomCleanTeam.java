@@ -2,9 +2,9 @@ package test_2118_ex;
 
 public class ScienceRoomCleanTeam extends ClassRoomCleanTeam {
 
-	CleaningPerson organizationerr;
+	private CleaningPerson organizationerr;
 	
-	ScienceRoomCleanTeam() {
+	public ScienceRoomCleanTeam() {
 		super(new ScienceRoom());
 		this.organizationerr = new CleaningPerson(new ScienceRoom());
 	}

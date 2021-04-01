@@ -2,9 +2,9 @@ package test_2118_ex;
 
 public class CleaningPerson {
 	
-	ClassRoom classRoom;
+	private ClassRoom classRoom;
 	
-	CleaningPerson(ClassRoom classRoom) {
+	public CleaningPerson(ClassRoom classRoom) {
 		this.classRoom = classRoom;
 	}
 		

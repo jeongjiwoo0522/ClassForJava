@@ -2,9 +2,9 @@ package test_2118_ex;
 
 public class ClassRoom {
 
-	String name;
+	public String name;
 	
-	ClassRoom(String name) {
+	public ClassRoom(String name) {
 		this.name = name;
 	}
 }
