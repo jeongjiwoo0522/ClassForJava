@@ -6,11 +6,12 @@ public class ScienceRoomCleanTeam extends ClassRoomCleanTeam {
 	
 	ScienceRoomCleanTeam() {
 		super(new ScienceRoom());
+		this.organizationerr = new CleaningPerson(new ScienceRoom());
 	}
 	
 	@Override()
 	public void cleanRoom() {
 		super.cleanRoom();
-		this.organizationerr.clean(null);
+		this.organizationerr.clean(new Duster());
 	}
 }
