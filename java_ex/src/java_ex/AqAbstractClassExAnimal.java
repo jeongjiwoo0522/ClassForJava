@@ -50,5 +50,14 @@ public class AqAbstractClassExAnimal {
 		
 		animal = new Cat();
 		animal.sound();
+		System.out.println();
+		
+		// 메소드의 다형성 
+		animalSound(dog);
+		animalSound(animal);
+	}
+	
+	public static void animalSound(Animal animal) {
+		animal.sound();
 	}
 }
