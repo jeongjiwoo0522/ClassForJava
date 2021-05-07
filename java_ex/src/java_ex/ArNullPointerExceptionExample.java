@@ -1,6 +1,6 @@
 package java_ex;
 
-public class NullPointerExceptionExample {
+public class ArNullPointerExceptionExample {
 	
 	public static void main(String[] args) {
 		String data = null;

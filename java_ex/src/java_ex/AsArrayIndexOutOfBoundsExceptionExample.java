@@ -1,6 +1,6 @@
 package java_ex;
 
-public class ArrayIndexOutOfBoundsExceptionExample {
+public class AsArrayIndexOutOfBoundsExceptionExample {
 	
 	public static void main(String[] args) {
 		String data1 = args[0];
